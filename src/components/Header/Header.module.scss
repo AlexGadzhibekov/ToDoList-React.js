@@ -1,0 +1,15 @@
+@import '~/src/styles/mixins';
+
+.container{
+    @include container()
+}
+
+.header{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: rgba(33, 35, 38, 0.2) 0px 4px 4px 0px;
+    &__container{
+        display: flex;
+        padding: 1rem;
+    }
+}

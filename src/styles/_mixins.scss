@@ -1,0 +1,11 @@
+@mixin button (){
+    border-radius: 3px;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+}
+@mixin container(){
+    max-width: 95%;
+    margin: 0 auto;
+}
